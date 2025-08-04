@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz App</title>
+  <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="loading-screen">
+  <div class="loader-container">
+    <div class="spinner"></div>
+    <p>Loading your quiz...</p>
+  </div>
+</div>
+
+  <div class="quiz-container hide" id="quiz-app">
+    <h1>🧠 Quiz Master</h1>
+    <div id="quiz-box">
+      <div id="question"></div>
+      <div id="options"></div>
+      <button id="next-btn" class="hide">Next</button>
+    </div>
+    <div id="score-box" class="hide"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
