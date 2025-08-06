@@ -77,6 +77,9 @@ Example topics from the quiz:
 - Responsive layout and hover animations included.
 
 ---
+## 📸 Project Output
+
+![Screenshot](./output/screenshot1.png)
 
 ## License
 
